@@ -1,5 +1,6 @@
 * {
   margin: 0;
+  -webkit-font-smoothing: antialiased;
 }
 
 header h1 {
