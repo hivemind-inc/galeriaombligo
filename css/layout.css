@@ -25,17 +25,26 @@ header h1 {
   margin: 2rem auto;
 }
 
+@media(max-width: 22rem) {
+  .container {
+    max-width: 15rem;
+  }
+}
+
 img {
-  max-width: 20rem;
+  width: calc(100% - 10px);
+  display: block;
   border: 5px solid;
   position: relative;
   bottom: 10rem;
   margin-bottom: -8rem;
 }
 
-@media(max-width: 20rem) {
-  .container {
-    margin: 2rem 1rem;
+@media(max-width: 22rem) {
+  img {
+    /*max-width: 10rem;*/
+    bottom: 6rem;
+    margin: 0 auto -5rem auto;
   }
 }
 
