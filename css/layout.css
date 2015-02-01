@@ -48,10 +48,6 @@ img {
   }
 }
 
-article h2 {
-  border-bottom: 1px solid #000;
-}
-
 article .content {
   padding: 1.5rem 0;
   font-size: 1.2rem;

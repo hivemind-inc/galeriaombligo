@@ -4,10 +4,15 @@ body {
 
 header {
   background: #AA381E;
+  border-bottom: 2px solid #ffd700;
 }
 
 header h1 {
   color: #fff;
+}
+
+article h2 {
+  border-bottom: 1px solid #000;
 }
 
 article.contact a {
@@ -21,4 +26,5 @@ article.contact a:hover {
 
 footer {
   background: #AA381E;
+  border-top: 2px solid #ffd700;
 }
