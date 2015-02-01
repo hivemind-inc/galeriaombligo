@@ -48,3 +48,10 @@ article.contact a {
   display: inline-block;
   margin: 0.5rem 0;
 }
+
+footer {
+  height: 2.5rem;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}

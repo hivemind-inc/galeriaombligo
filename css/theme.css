@@ -18,3 +18,7 @@ article.contact a {
 article.contact a:hover {
   background: #F68D75;
 }
+
+footer {
+  background: #AA381E;
+}
